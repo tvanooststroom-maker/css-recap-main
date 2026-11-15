@@ -1,80 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <title>VOID AUDIO™ — VOID//01</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">VOID AUDIO™</div>
 
-    <header>
-
-        <a href="#top">VOID AUDIO™</a>
-
-        <nav>
-            <a href="#product">VOID//01</a>
-            <a href="#sound">SOUND</a>
-            <a href="#about">ABOUT</a>
-            <a href="#shop">CART / 00</a>
-        </nav>
-
+      <nav class="main-nav">
+        <a href="#product">VOID//01</a>
+        <a href="#sound">SOUND</a>
+        <a href="#about">ABOUT</a>
+        <a href="#cart">CART / <span>00</span></a>
+      </nav>
     </header>
 
+    <main>
+      <section class="hero" id="top">
+        <aside class="hero-meta">
+          <div>REF: VA-01-BLK-2026</div>
+          <div>40H BATTERY</div>
+          <div>ANC ENABLED</div>
+        </aside>
 
-    <main id="top">
+        <div class="hero-copy">
+          <h1 class="display display--light">TOO LOUD</h1>
+          <h1 class="display display--lime">IS A SETTING.</h1>
+        </div>
 
-        <section>
+        <div class="hero-bottom">
+          <div class="hero-price">
+            <p class="eyebrow">VOID//01 WIRELESS</p>
+            <p class="price">€179</p>
+          </div>
 
-            <p>
-                REF: VA-01-BLK-2026<br>
-                40H BATTERY<br>
-                ANC ENABLED
-            </p>
+          <button class="shop-button" type="button" disabled>
+            SHOP <span>→</span>
+          </button>
+        </div>
+      </section>
 
-            <p>
-                VOID//01 — WIRELESS HEADPHONES
-            </p>
+      <section class="statement-section-shell" id="sound">
+        <div class="statement-inner">
+          <h2 class="statement-headline">
+            NO WIRES.<br />
+            NO NOISE.<br />
+            NO EXCUSES.
+          </h2>
 
-            <h1>
-                TOO LOUD<br>
-                <em>IS A SETTING.</em>
-            </h1>
+          <p class="statement-meta">VOID AUDIO™ / VOID//01 / 2026 COLLECTION</p>
+        </div>
+      </section>
 
-            <div>
+      <section class="product-showcase section-shell" aria-label="VOID//01 product details">
+        <img
+          class="product-showcase-image"
+          src="assets/headphones.avif"
+          alt="VOID//01 wireless headphones"
+        />
+        <div class="product-showcase-mark" aria-hidden="true">VOID//01</div>
 
-                <div>
-                    <p>VOID//01 WIRELESS</p>
-                    <p>€179</p>
-                </div>
+        <div class="feature feature--headband">
+          <span class="feature-label">HEADBAND</span>
+          <span class="feature-value">ANODISED ALUMINIUM ARC</span>
+        </div>
+        <div class="feature feature--cushions">
+          <span class="feature-label">EAR CUSHIONS</span>
+          <span class="feature-value">MEMORY FOAM + PROTEIN LEATHER</span>
+        </div>
+        <div class="feature feature--transducer">
+          <span class="feature-label">TRANSDUCER</span>
+          <span class="feature-value">40MM NEODYMIUM DRIVER</span>
+        </div>
+        <div class="feature feature--connectivity">
+          <span class="feature-label">CONNECTIVITY</span>
+          <span class="feature-value">USB-C / 3.5MM</span>
+        </div>
+      </section>
 
-                <a href="#shop">
-                    SHOP
-                    <span>→</span>
-                </a>
+      <section class="specs section-shell" id="product">
+        <div class="specs-topline">TECHNICAL SPECIFICATIONS — VOID//01</div>
 
+        <div class="specs-list">
+          <div class="specs-row">
+            <div class="specs-index">001</div>
+            <div class="specs-title">40MM DRIVER</div>
+            <div class="specs-desc">Neodymium transducer. 20Hz-20kHz frequency response. Zero compromise.</div>
+          </div>
+
+          <div class="specs-row">
+            <div class="specs-index">002</div>
+            <div class="specs-title">ACTIVE NOISE CANCELLATION</div>
+            <div class="specs-desc">Hybrid ANC architecture. -35dB ambient noise reduction. Transparency mode included.</div>
+          </div>
+
+          <div class="specs-row">
+            <div class="specs-index">003</div>
+            <div class="specs-title">LOW LATENCY MODE</div>
+            <div class="specs-desc">&lt;40ms game mode. Bluetooth 5.3 with aptX Adaptive. No lag. No excuses.</div>
+          </div>
+
+          <div class="specs-row">
+            <div class="specs-index">004</div>
+            <div class="specs-title">40H BATTERY</div>
+            <div class="specs-desc">USB-C quick charge. 10 minutes = 3 hours. 40 hours total playback with ANC off.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="listening-banner section-shell" aria-label="Listen different">
+        <img
+          class="listening-banner-image"
+          src="assets/headphones3.avif"
+          alt="Person wearing VOID//01 headphones"
+        />
+        <div class="listening-banner-copy">
+          <h2>
+            <span>LISTEN</span>
+            <span>DIFFERENT.</span>
+          </h2>
+          <p>VOID//01 — AVAILABLE NOW</p>
+        </div>
+      </section>
+
+      <section class="endurance section-shell" id="about">
+        <div class="endurance-wrap">
+          <div class="endurance-headline">40<br />HOURS.</div>
+
+          <div class="endurance-stats">
+            <div class="stat">
+              <span class="label">POWER</span>
+              <strong>USB-C QUICK CHARGE</strong>
+              <small>10 min = 3 hrs</small>
             </div>
+            <div class="stat">
+              <span class="label">WITH ANC</span>
+              <strong>30 HOURS</strong>
+            </div>
+            <div class="stat">
+              <span class="label">STANDBY</span>
+              <strong>120 HOURS</strong>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <section class="colorways section-shell" aria-label="Available colorways">
+        <div class="colorways-inner">
+          <p class="colorways-eyebrow">COLORWAYS — VOID//01</p>
 
+          <div class="colorways-grid">
+            <article class="colorway colorway--black">
+              <span class="colorway-code">VA-01-BLK</span>
+              <h2>VOID BLACK</h2>
+              <p>The original. Matte anodised finish.</p>
+            </article>
+            <article class="colorway colorway--silver">
+              <span class="colorway-code">VA-01-SLV</span>
+              <h2>RAW SILVER</h2>
+              <p>Brushed aluminium. No coating. No pretence.</p>
+            </article>
+            <article class="colorway colorway--bone">
+              <span class="colorway-code">VA-01-BNE</span>
+              <h2>BONE</h2>
+              <p>Muted. Minimal. Warm off-white.</p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-        <section id="sound">
-
-            <h2>
-                NO WIRES.<br>
-                NO NOISE.<br>
-                NO EXCUSES.
-            </h2>
-
-            <p>
-                VOID AUDIO™ / VOID//01 / 2026 COLLECTION
-            </p>
-
-        </section>
-
+      <section class="closing-cta section-shell" id="shop">
+        <img
+          class="closing-cta-image"
+          src="assets/headphones2.avif"
+          alt=""
+          aria-hidden="true"
+        />
+        <div class="closing-cta-backdrop" aria-hidden="true">VOID AUDIO</div>
+        <div class="closing-cta-content">
+          <h2>TURN<br />IT UP.</h2>
+          <div class="closing-cta-action">
+            <button class="shop-button" type="button" disabled>
+              SHOP NOW — €179 <span>→</span>
+            </button>
+            <p>FREE SHIPPING · 2-YEAR WARRANTY · 30-DAY RETURNS</p>
+          </div>
+        </div>
+      </section>
     </main>
 
-</body>
-
+    <footer class="site-footer">
+      <div class="brand small">VOID AUDIO™</div>
+      <div class="copyright">© 2026 VOID AUDIO. ALL RIGHTS RESERVED.</div>
+      <div class="footer-links">
+        <a href="#privacy">PRIVACY</a>
+        <a href="#terms">TERMS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </footer>
+  </body>
 </html>
